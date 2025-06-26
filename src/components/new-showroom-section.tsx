@@ -69,13 +69,7 @@ export default function NewShowroomSection() {
           </div>
           <div className="col-md-6 col-lg-6 p-0">
             <div className="showroom_video">
-              <iframe
-                src="https://www.youtube.com/embed/tgbNymZ7vqY"
-                width="100%"
-                height="492"
-                frameBorder="0"
-                allowFullScreen
-              ></iframe>
+              <iframe width="1296" height="729" src="https://www.youtube.com/embed/5ePVUbDxCyo" title="Maruti Suzuki Grand Vitara Hybrid | Detailed Review- Features, Price, Mileage, etc. | EV Bazaar" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
             </div>
           </div>
         </div>

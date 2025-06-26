@@ -15,18 +15,7 @@ import gsap from "gsap"
 export default function DealerTabSection() {
     const [activeTab, setActiveTab] = useState(0);
 
-    useGSAP(() => {
-        gsap.from(".card_dealer_info", {
-            x: -300,
-            duration: 1.5,
-            ease: "power2.out",
-        });
-        gsap.from(".dealercar", {
-            x: 300,
-            duration: 1.5,
-            ease: "power2.out",
-        });
-    }, [activeTab]);
+    
 
     const dealerData = [
         {
