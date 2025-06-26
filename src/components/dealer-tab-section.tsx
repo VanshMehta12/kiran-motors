@@ -8,8 +8,7 @@ import { Autoplay, Scrollbar } from "swiper/modules"
 import "swiper/css"
 import "swiper/css/scrollbar"
 import "swiper/css/autoplay"
-import { useGSAP } from "@gsap/react"
-import gsap from "gsap"
+
 
 
 export default function DealerTabSection() {
