@@ -1,14 +1,12 @@
 "use client"
 
 import {useState } from "react"
-import Image from "next/image"
 import Link from "next/link"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Autoplay, Scrollbar } from "swiper/modules"
 import "swiper/css"
 import "swiper/css/scrollbar"
 import "swiper/css/autoplay"
-
 
 
 export default function DealerTabSection() {
@@ -82,11 +80,9 @@ export default function DealerTabSection() {
                                 <div className="card_dealer_info">
                                     <h3>{dealerData[activeTab].title}</h3>
                                     <div className="car_dealer_logo">
-                                        <Image
+                                        <img
                                             src={dealerData[activeTab].logo || "/placeholder.svg"}
                                             alt="logo"
-                                            width={180}
-                                            height={40}
                                         />
                                     </div>
                                     <h2>{dealerData[activeTab].heading}</h2>
@@ -99,13 +95,11 @@ export default function DealerTabSection() {
                             </div>
                             <div className="col-lg-6">
                                 <div className="dealer_img">
-                                    <Image
+                                    <img
                                         className="dealercar"
 
                                         src={dealerData[activeTab].image || "/placeholder.svg"}
                                         alt="dealer"
-                                        width={550}
-                                        height={450}
                                     />
                                 </div>
                             </div>
