@@ -135,7 +135,7 @@ export default function Header() {
                                         <Link href="#" className="text-decoration-none">
                                             Services <ChevronDown size={14} />
                                         </Link>
-                                        <ul className="dropdown_menu">
+                                        <ul className="dropdown_menu p-0">
                                             <li>
                                                 <Link href="#" className="text-decoration-none">
                                                     Service 1
@@ -171,7 +171,7 @@ export default function Header() {
                                         <Link href="#" className="text-decoration-none">
                                             About Us <ChevronDown size={14} />
                                         </Link>
-                                        <ul className="dropdown_menu py-0">
+                                        <ul className="dropdown_menu p-0">
                                             <li>
                                                 <Link href="#" className="text-decoration-none">
                                                     Our Story
